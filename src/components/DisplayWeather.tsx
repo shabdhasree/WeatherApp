@@ -41,7 +41,7 @@ interface ForecastDataProps {
 }
 
 const DisplayWeather = () => {
-  const api_key = "cd77f2d3b8d160703deff6b26c775dc3";
+  const api_key = "";
   const api_Endpoint = "https://api.openweathermap.org/data/2.5/";
 
   const [weatherData, setWeatherData] = useState<WeatherDataProps | null>(null);
